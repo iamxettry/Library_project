@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+.bg_gradient_blue{
+    background: linear-gradient(90deg,rgb(57, 247, 40),rgb(32, 210, 255));
+     background-clip: text;
+    color: transparent;
+}

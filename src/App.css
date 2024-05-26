@@ -1,0 +1,31 @@
+
+
+.slider{
+  animation:slide_up 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+}
+
+@keyframes slide_up {
+  0%{
+    transform: translateY(100px);
+  }
+  100%{
+    transform: translateY(0);
+  }
+  
+}
+.slide_nav{
+  animation:slide_left 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+}
+
+@keyframes slide_left {
+  0%{
+    transform: translateX(100px);
+  }
+  100%{
+    transform: translateX(0);
+  }
+  
+}
+.aa{
+  animation: 3s ease-in 1s infinite reverse both running slidein;
+}
